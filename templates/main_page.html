@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+  <head>
+	 <link rel="stylesheet" href="static/styles.css">
+
+  <title>HOME PAGE</title>
+  </head>
+
+  <body>
+  <header class="header">
+<!--<header style="background-color:#ffaa80;border-raidus:100px">-->
+	<nav>
+		<h1 align="center">BIG BASKET MANAGEMENT SYSTEM</h1>
+	</nav>
+	<center><img src="{{url_for('static',filename='bb_logo.png')}}" width="200" height="200"></center>
+</header>
+
+  <br>
+  <center><a href="{{url_for('signup')}}" ><button>SignUp</button></a></center>
+  <br>
+  <center><a href="{{url_for('login')}}"><button>Login</button></a></center>
+  <br>
+  <center><img src="static/shopping.gif"></center>
+
+  <footer class="footer">
+	  <div >
+		  <div>
+			  <span>HELP INFO:</span>
+			  <a href="https://www.bigbasket.com/contact/?nc=bt">CONTACT US</a>
+		  </div>
+
+	  </div>
+  </footer>
+  </body>
+</html>

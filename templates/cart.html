@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="static/styles_cart.css">
+    <meta charset="UTF-8">
+    <title>CART</title>
+</head>
+<body class="body_design">
+<header>
+        <div class="header">
+            <center><b>BIG BASKET BILL</b></center>
+            <div class="header-right">
+                <a class="active" href="{{url_for('all_page')}}">Home</a>&nbsp
+                <a class="active" href="https://www.bigbasket.com/contact/">Contact</a>&nbsp
+                <a class="active" href="https://www.bigbasket.com/about-us/"> About</a>
+            </div>
+        </div>
+</header>
+<div class="table_design">
+  <table style="margin-left :200px;">
+      <tr>
+          <th> PRODUCT NAME</th>
+          <br>
+          <th>QUANTITY</th>
+      </tr>
+
+      {% for product in details %}
+      <tr>
+          <td>{{product['pro_name']}}</td>
+          <td>{{product['quantity']}}</td>
+      {%endfor%}
+      </tr>
+  </table>
+</div>
+<br><br>
+<br>
+
+<img src="static/cart1.jpeg" width=200px" height="200px">
+<img style="float:right;" src="static/cart2.jpeg" width="200px" height="200px"
+
+
+
+<div>
+    <center><b><a href="{{url_for('bill')}}">VIEW BILL</a></b></center>
+</div>
+</body>
+</html>

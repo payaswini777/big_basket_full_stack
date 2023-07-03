@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="static/styles_bill.css">
+    <meta charset="UTF-8">
+    <title>BILL</title>
+</head>
+
+<body class="body_design">
+<div class="table_design">
+  <table style="margin-left :200px;">
+      <tr>
+          <th> PRODUCT NAME</th>
+          <th>QUANTITY</th>
+
+          <th>COST</th>
+
+      </tr>
+
+      {% for product in details %}
+      <tr>
+
+          <td>{{product['B_product']}}</td>
+          <td>{{product['quantity']}}</td>
+          <td>{{product['cost']}}</td>
+
+      </tr>
+    {%endfor%}
+    <tr>
+      <td colspan="4">TOTAL COST</td>
+      <td>{{total}}</td>
+    </tr>
+  </table>
+</div>
+<br><br>
+<p style="text-align:center;"><b> PAYMENT ACCEPTABLE ONLY IN CASH!</b></p>
+<center><button>PROCEED TO PAYMENT</button></center>
+<br><br><br>
+<center><button><a href="{{url_for('all_page')}}">GO BACK TO MAINPAGE</a></button></center>
+<footer>
+    <img src="static/tq1.gif">
+</footer>
+</body>
+</div>
+</html>

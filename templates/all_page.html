@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="static/styles_allpage.css">
+        <meta charset="UTF-8">
+<!--       <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--       <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+
+    </head>
+    <body class="body">
+    <header>
+          <center><h1>BIG BASKET🤍</h1></center>
+    </header>
+
+    <br>
+    <div class="button">
+    <a href="{{url_for('cart')}}">CART</a>
+    </div>
+    <center><div class="form">
+        <form action="/all_page" method="POST">
+                <b><label class="label">Enter the product name: </label></b>
+                <input type="text" name="name" placeholder="Enter the vegetable/fruit name:"  class="text">
+                <br>
+            <b><label class="label">Enter the quantity: </label></b>
+                <input type="text" name="quantity" placeholder="ENTER QUANTITY:">
+                <center><input type="submit" class="submit"></center>
+        </form>
+        </div>
+    </center>
+        <br><br>
+
+    </footer>
+    </body>
+</html>
