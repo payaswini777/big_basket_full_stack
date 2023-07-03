@@ -1,0 +1,23 @@
+body
+{
+background-color:pink;
+}
+header
+{
+  background-color:blue;
+  border-radius: 30px 30px 30px 30px;
+  background: #73AD21;
+}
+
+footer
+{
+text-align:center;
+padding: 3px;
+background-color:DarkSalmon;
+color:white;
+}
+/* *****************************************************END OF MAIN PAGE***********************************************/
+design
+{
+text-align:center;
+}

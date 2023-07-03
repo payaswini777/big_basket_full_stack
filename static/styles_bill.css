@@ -1,0 +1,32 @@
+.table_design
+{
+border:1px solid pink;
+}
+
+img
+ {
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+.header-right
+{
+float:none;
+}
+
+.body_design
+{
+background-color:#eea990;
+}
+
+.table_design
+{
+border:1px solid black;
+}
+
+img
+{
+float:center;
+}

@@ -1,0 +1,27 @@
+.header
+{
+background-color:black;
+}
+
+.form
+{
+border: 10px solid black;
+background-color:#dddd;
+width:300px;
+height:200px;
+}
+
+.button
+{
+
+  float:right;
+  top: 10px;
+  right: 34;
+  width: 38px;
+  height: 15px;
+  border: 1px solid #73AD21;
+}
+
+.body
+{
+background-color:#F9DED7;

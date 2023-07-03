@@ -1,0 +1,73 @@
+.header
+{
+overflow:hidden;
+background-color:#dddd;
+padding: 20px 10px;
+}
+
+.header background{
+float:left;
+color:black;
+text-align:center;
+padding:12px;
+text-decoration:none;
+font-size:18px;
+line-height:25px;
+border-radius:4px;
+}
+
+.header a.logo
+{
+font-size:25px;
+font-weight:bold;
+}
+
+.header a:hover
+{
+paddding:50px;
+background-color: #ddd;
+color:black;
+}
+
+.header a.active
+{
+background-color: skyblue;
+color:white;
+padding:7px;
+}
+
+.header-right
+{
+float:right;
+}
+
+@media screen and (max-width: 500px)
+{
+float:none;
+display:block;
+text-align:left;
+}
+.header-right
+{
+float:none;
+}
+
+.body_design
+{
+background-color:#eea990
+}
+
+.table_design
+{
+border:1px solid black;
+}
+
+img
+ {
+
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
